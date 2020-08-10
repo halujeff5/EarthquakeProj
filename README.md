@@ -9,6 +9,23 @@ Data Acquisition and Preprocessing
 - The actual time series will consist of the datetime and magnitude of the quake. The dependent variable is the quake magnitude.
 
 EDA
-- Description of the only major earthquake in the area in the last 10 years with a 6.0 magnitude.  The Napa Earthquake took place on 8.24.14 3:20pm local time. 
+- Description of the only major earthquake in the area in the last 10 years with a 6.0 magnitude.  The Napa Earthquake took place on 8.24.14 3:20pm local time. Below is the seismic data of the earthquake 2 months before leading up to quake.
 
 ![](images/Napaquake_copy.png)
+
+- From the analysis I generated a null hypothesis 
+- I then analyzed quakes next biggest which were 4.0 quakes and there were 8 of them in 10 years. Below were 2 of the quakes I analyzed.
+
+![](images/quakeA_copy.png)
+![](images/quakeB_copy.png)
+
+- From these graphs, the null hypothesis was rejected and concluded that the seismic activity right before a feelable quake is higher than normal. This was done thru comparing the variance in seismic data 2 weeks before quake to mean local variance (variance 2 months before quake).
+
+
+Modeling
+ - Three models were compared but 5 models were tested. The tested models included AR, SARIMA, SARIMAX, ARIMA, LSTM. The three models compared were the baseline model, ARIMA, and LSTM with LSTM being our best model. 
+ 
+ ![](images/FinalLSTM.png)
+- Our best model (green arrows) and the gray arrows show that quakes were forecasted but in different times. They are similar in magnitude. This means our model can forecast earthquakes within a given timeframe. The graph contains 2 months of data. The time difference between the two quakes are two weeks so the timeframe for our forecast accuracy is plus/minus two weeks.
+
+CONCLUSION
