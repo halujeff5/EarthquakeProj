@@ -14,7 +14,7 @@ EDA
 ![](images/Napaquake_copy.png)
 
 - From the analysis I generated a null hypothesis 
-- I then analyzed quakes next biggest which were 4.0 quakes and there were 8 of them in 10 years. Below were 2 of the quakes I analyzed.
+- I then analyzed quakes next biggest which were 4.0 quakes and there were 8 of them in 10 years. Below were 2 of the 6 quakes I analyzed.
 
 ![](images/quakeA_copy.png)
 ![](images/quakeB_copy.png)
@@ -26,6 +26,16 @@ Modeling
  - Three models were compared but 5 models were tested. The tested models included AR, SARIMA, SARIMAX, ARIMA, LSTM. The three models compared were the baseline model, ARIMA, and LSTM with LSTM being our best model. 
  
  ![](images/FinalLSTM.png)
-- Our best model (green arrows) and the gray arrows show that quakes were forecasted but in different times. They are similar in magnitude. This means our model can forecast earthquakes within a given timeframe. The graph contains 2 months of data. The time difference between the two quakes are two weeks so the timeframe for our forecast accuracy is plus/minus two weeks.
+- Our best model (green arrows) and the gray arrows show that quakes were forecasted but in different times. They are similar in magnitude. This means our model can forecast earthquakes within a given timeframe. The graph contains 2 months of data. The time difference between the two quakes are two weeks so the timeframe for our forecast accuracy is plus/minus two weeks. This model was an LSTM neural network with 2 100 node layers + a dense layer and 4000 epochs with a 130 batch size.  
 
 CONCLUSION
+- Earthquake forecasting using time series data was effective using the  LSTM model. It was able to effectively forecast an important earthquake within a reasonable time frame. EDA helped us identify earthquake precursors.
+- For further investigation, I would investigate into foreshocks and aftershocks and try our model on unseen data. A more complex LSTM with stronger processors could be used for the LSTM model in the future. And also raw seismic data with more regular intervals could be tried.
+
+CITATIONS:
+- LSTM Model https://youtu.be/QIUxPv5PJOY
+- usgs.gov query tool for data source https://earthquake.usgs.gov/earthquakes/search/
+
+PRESENTATION LINK:
+https://docs.google.com/presentation/d/1pIqk5-NN86szZGaZgWNKM681LFEsrW0e_aU3tUp7fM4/edit#slide=id.g8f59c23fc9_0_111
+
