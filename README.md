@@ -11,4 +11,4 @@ Data Acquisition and Preprocessing
 EDA
 - Description of the only major earthquake in the area in the last 10 years with a 6.0 magnitude.  The Napa Earthquake took place on 8.24.14 3:20pm local time. 
 
-![](images/Napaquake copy.png)
+![](images/Napaquake_copy.png)
