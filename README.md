@@ -13,7 +13,7 @@ EDA
 
 ![](images/Napaquake_copy.png)
 
-- From the analysis I generated a null hypothesis 
+- From the analysis I generated a null hypothesis. The null hypothesis is there is no difference in seismic activity 2 weeks prior to an earthquake versus 2 months prior. 
 - I then analyzed quakes next biggest which were 4.0 quakes and there were 8 of them in 10 years. Below were 2 of the 6 quakes I analyzed.
 
 ![](images/quakeA_copy.png)
