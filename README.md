@@ -23,10 +23,10 @@ EDA
 
 
 Modeling
- - Three models were compared but 5 models were tested. The tested models included AR, SARIMA, SARIMAX, ARIMA, LSTM. The three models compared were the baseline model, ARIMA, and LSTM with LSTM being our best model. 
+ - Three models were compared but 4 models were tested. The tested models included SARIMA, SARIMAX, ARIMA, LSTM. The three models compared were the baseline model, ARIMA, and LSTM with LSTM being our best model. 
  
  ![](images/FinalLSTM.png)
-- Our best model (green arrows) and the gray arrows show that quakes were forecasted but in different times. They are similar in magnitude. This means our model can forecast earthquakes within a given timeframe. The graph contains 2 months of data. The time difference between the two quakes are two weeks so the timeframe for our forecast accuracy is plus/minus two weeks. This model was an LSTM neural network with 2 100 node layers + a dense layer and 4000 epochs with a 130 batch size.  
+- Our best model (green arrows) and the gray arrows show that quakes were forecasted but in different times. They are similar in magnitude. This means our model can forecast earthquakes within a given timeframe. The graph contains 2 months of data. The time difference between the two quakes are two weeks so the timeframe for our forecast accuracy is plus/minus two weeks. This model was an LSTM neural network with 2 100 node layers + a dense layer and 4000 epochs with a 130 batch size. RMSE and SMAPE metrics were used to evaluate our model because SMAPE tells us the mean absolute percentage error (up and down) telling us how often our predictions were correct. RMSE tells us how off our line plot is from the source. 
 
 CONCLUSION
 - Earthquake forecasting using time series data was effective using the  LSTM model. It was able to effectively forecast an important earthquake within a reasonable time frame. EDA helped us identify earthquake precursors.
