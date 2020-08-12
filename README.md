@@ -1,5 +1,7 @@
-# EarthquakeProject
+# EarthquakeProject 
 
+ The FinalNB.ipynb is where I have my finalize NB
+ 
 Business Case
 - The SF/Bay Area is home to the San Andreas fault and 6 others making it an active earthquake belt. Forecasting earthquakes so the area can prepare, will minimize injuries, and save economic/financial losses due to property damage. 
 
