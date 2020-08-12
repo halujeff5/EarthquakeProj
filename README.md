@@ -30,7 +30,7 @@ Modeling
 
 CONCLUSION
 - Earthquake forecasting using time series data was effective using the  LSTM model. It was able to effectively forecast an important earthquake within a reasonable time frame. EDA helped us identify earthquake precursors.
-- For further investigation, I would investigate into foreshocks and aftershocks and try our model on unseen data. A more complex LSTM with stronger processors could be used for the LSTM model in the future. And also raw seismic data with more regular intervals could be tried.
+- For further investigation, I would investigate into foreshocks and aftershocks and try our model on unseen data. A more complex LSTM with stronger processors could be used for the LSTM model in the future. But most importantly, the model needs to generalizable and not overfit while maintaining a good SMAPE score. And also raw seismic data with more regular intervals could be tried.
 
 CITATIONS:
 - LSTM Model https://youtu.be/QIUxPv5PJOY
