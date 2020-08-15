@@ -39,6 +39,13 @@ CONCLUSION
 CITATIONS:
 - LSTM Model https://youtu.be/QIUxPv5PJOY
 - usgs.gov query tool for data source https://earthquake.usgs.gov/earthquakes/search/
+- Slide Illustrations
+ SAN ANDREAS FAULT LINE https://geology.com/articles/san-andreas-fault.shtml
+- RICHTER SCALE 
+https://www.alamy.com/search.html?qt=richter%20scale%20earthquake&imgt=0
+- TRANSFORM FAULT ILLUSTRATION https://layerofearthwordpresscom.wordpress.com/transform-plate-boundaries/
+- COSTS OF EARTHQUAKES
+https://www.kansascityfed.org/publications/research/oke/articles/2016/economic-damage-large-earthquakes
 
 PRESENTATION LINK:
 https://docs.google.com/presentation/d/1pIqk5-NN86szZGaZgWNKM681LFEsrW0e_aU3tUp7fM4/edit#slide=id.g8f59c23fc9_0_111
