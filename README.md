@@ -1,6 +1,8 @@
 # EarthquakeProject 
 
- The FinalNB.ipynb is where I have my finalize NB
+ The FinalNB.ipynb is where I have my finalize NB. 
+ 
+ The ExtraModels.ipynb is where I tested my model on a different subset of my scraped data. This notebook also contains a model testing on a different geographic location.
  
 Business Case
 - The SF/Bay Area is home to the San Andreas fault and 6 others making it an active earthquake belt. Forecasting earthquakes so the area can prepare, will minimize injuries, and save economic/financial losses due to property damage. 
