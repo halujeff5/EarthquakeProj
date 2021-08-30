@@ -3,7 +3,7 @@
 REPOSITORY STRUCTURE
 - FinalNB.ipynb
 - ExtraModels.ipynb is where I tested my model on a different subset of my scraped data. This notebook also contains a model testing on a different geographic location
-- 
+- modelJ.h5 copy is the saved model
  
 Business Case
 - The SF/Bay Area is home to the San Andreas fault and 6 others making it an active earthquake belt. Forecasting earthquakes so the area can prepare, will minimize injuries, and save economic/financial losses due to property damage. 
