@@ -36,7 +36,7 @@ Modeling
 - RMSE and SMAPE metrics were used to evaluate our model because SMAPE tells us the mean absolute percentage error (up and down) telling us how often our predictions were correct. RMSE tells us how off our line plot is from the source. 
 
 CONCLUSION
-- Earthquake forecasting using time series data was effective using the  LSTM model. It was able to effectively forecast an important earthquake within a reasonable time frame. EDA helped us identify earthquake precursors.
+- Earthquake forecasting using time series data was effective using the  LSTM model. It was able to effectively forecast an important earthquake within a reasonable time frame. EDA helped us identify earthquake precursors. A vanilla RNN was not effective nor (S)ARIMA(X) models. 
 - For further investigation, I would investigate into foreshocks and aftershocks and try our model on unseen data. A more complex LSTM with stronger processors could be used for the LSTM model in the future. But most importantly, the model needs to generalizable and not overfit while maintaining a good SMAPE score. And also raw seismic data with more regular intervals could be tried.
 
 CITATIONS:
