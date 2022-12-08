@@ -9,7 +9,7 @@ Business Case
 - The SF/Bay Area is home to the San Andreas fault and 6 others making it an active earthquake belt. Forecasting earthquakes so the area can prepare, will minimize injuries, and save economic/financial losses due to property damage. 
 
 Data Acquisition and Preprocessing
-- Used usgs.gov query tool to return data from 1.1.10-8.2.20 of earthquakes with magnitude > 0.1 into a .csv file. Data collected included 14,116 points with 22 columns. The coordinates of the given area is (38.46 to 37.23 latitude, and -121.40 to -123.01 longitude.
+- Used usgs.gov query tool to return data from 1.1.10-8.2.20 of earthquakes with magnitude > 0.1 into a .csv file. Data collected included 14,116 points with 22 columns. The coordinates of the given area is (38.46 to 37.23 latitude, and -121.40 to -123.01 longitude. The query tool can be found [here] (https://earthquake.usgs.gov/earthquakes/search/)
 - Data Preprocessing included converting time series data into datetime format
 - The actual time series will consist of the datetime and magnitude of the quake. The dependent variable is the quake magnitude.
 
